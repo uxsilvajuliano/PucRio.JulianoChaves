@@ -1,0 +1,283 @@
+<mxfile host="app.diagrams.net" modified="2024-04-22T15:30:30.000Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="Srsr8hGeFsQBz3pIrxi6" version="24.2.5" type="device">
+  <diagram name="Juliano-Marta-2" id="yAd-Tq3l6dt5-tlFk5LD">
+    <mxGraphModel dx="1114" dy="671" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="iCmCGEU5eT1s75Sd7U7e-0" />
+        <mxCell id="iCmCGEU5eT1s75Sd7U7e-1" parent="iCmCGEU5eT1s75Sd7U7e-0" />
+        <mxCell id="iCmCGEU5eT1s75Sd7U7e-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="iCmCGEU5eT1s75Sd7U7e-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="970" y="245" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iCmCGEU5eT1s75Sd7U7e-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="iCmCGEU5eT1s75Sd7U7e-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1200" y="245" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iCmCGEU5eT1s75Sd7U7e-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="iCmCGEU5eT1s75Sd7U7e-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1415" y="245" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iCmCGEU5eT1s75Sd7U7e-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="iCmCGEU5eT1s75Sd7U7e-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1630" y="245" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iCmCGEU5eT1s75Sd7U7e-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="iCmCGEU5eT1s75Sd7U7e-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="636.5" y="247" as="targetPoint" />
+            <mxPoint x="555.0000000000001" y="247" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iCmCGEU5eT1s75Sd7U7e-10" value="u:_" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="iCmCGEU5eT1s75Sd7U7e-9" connectable="0" vertex="1">
+          <mxGeometry x="-0.2786" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iCmCGEU5eT1s75Sd7U7e-15" value="" style="group" parent="iCmCGEU5eT1s75Sd7U7e-1" connectable="0" vertex="1">
+          <mxGeometry x="299.86" y="529" width="200" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="iCmCGEU5eT1s75Sd7U7e-16" value="informar detalhes das peças" style="swimlane;whiteSpace=wrap;html=1;rounded=1;container=0;" parent="iCmCGEU5eT1s75Sd7U7e-15" vertex="1">
+          <mxGeometry width="200" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="iCmCGEU5eT1s75Sd7U7e-17" value="exibir imagens selecionadas {&lt;br&gt;d: foto 1, foto 2, ....&lt;br&gt;d+u: selecionar mais imagens&lt;br&gt;}&lt;br&gt;Informar características das peças- SEQ {&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;XOR - d+u: O que vai doar { roupas, calçados, móveis e livros}&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;XOR -&amp;nbsp;d+u: Categoria {camisa, camiseta, calça, short, vestido e saia&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;XOR -&amp;nbsp;d+u: Gênero { masculino, feminino}&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;br&gt;XOR -&amp;nbsp;d+u: Faixa etária {Adulto, infantil bebe}&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;XOR -&amp;nbsp;d+u: Tamanho da peça {PP,P, M, G e XG}&lt;br&gt;}" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;container=0;" parent="iCmCGEU5eT1s75Sd7U7e-15" vertex="1">
+          <mxGeometry x="10" y="31.93548387096774" width="180" height="287.41935483870964" as="geometry" />
+        </mxCell>
+        <mxCell id="iCmCGEU5eT1s75Sd7U7e-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="iCmCGEU5eT1s75Sd7U7e-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="735" y="488" />
+              <mxPoint x="388" y="488" />
+            </Array>
+            <mxPoint x="734.7149999999999" y="350" as="sourcePoint" />
+            <mxPoint x="388" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iCmCGEU5eT1s75Sd7U7e-19" value="Precond: imagem &lt;br&gt;selecionada&lt;br&gt;u: informar detalhes &lt;br&gt;das peças" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" parent="iCmCGEU5eT1s75Sd7U7e-18" connectable="0" vertex="1">
+          <mxGeometry x="-0.0298" y="2" relative="1" as="geometry">
+            <mxPoint x="-41" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iCmCGEU5eT1s75Sd7U7e-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="iCmCGEU5eT1s75Sd7U7e-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="757" as="sourcePoint" />
+            <mxPoint x="500" y="750" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="700" y="750" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ITZU4n59MmsmW6ebiXtw-7" value="&lt;span style=&quot;&quot;&gt;u: editar&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;b style=&quot;&quot;&gt;why:&amp;nbsp;&lt;/b&gt;&lt;span style=&quot;&quot;&gt;algumas características&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;podem ser modificadas&lt;br&gt;ou imagens&lt;br&gt;&lt;div style=&quot;&quot;&gt;adicionadas/excluídas&lt;/div&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" parent="iCmCGEU5eT1s75Sd7U7e-20" vertex="1" connectable="0">
+          <mxGeometry x="0.0784" relative="1" as="geometry">
+            <mxPoint x="-55" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iCmCGEU5eT1s75Sd7U7e-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="iCmCGEU5eT1s75Sd7U7e-1" source="iCmCGEU5eT1s75Sd7U7e-24" target="iCmCGEU5eT1s75Sd7U7e-44" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="850" y="910" />
+              <mxPoint x="1010" y="910" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iCmCGEU5eT1s75Sd7U7e-23" value="&lt;span style=&quot;text-wrap: wrap; font-size: 12px; background-color: rgb(251, 251, 251);&quot;&gt;u: disponibilizar&lt;/span&gt;&lt;br style=&quot;text-wrap: wrap; font-size: 12px; background-color: rgb(251, 251, 251);&quot;&gt;&lt;span style=&quot;text-wrap: wrap; font-size: 12px; background-color: rgb(251, 251, 251);&quot;&gt;para doação&lt;/span&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" parent="iCmCGEU5eT1s75Sd7U7e-22" connectable="0" vertex="1">
+          <mxGeometry x="0.0547" y="-2" relative="1" as="geometry">
+            <mxPoint x="-90" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iCmCGEU5eT1s75Sd7U7e-24" value="&lt;div&gt;revisar&amp;nbsp;&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;rounded=1;container=0;" parent="iCmCGEU5eT1s75Sd7U7e-1" vertex="1">
+          <mxGeometry x="699.86" y="539" width="200" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="iCmCGEU5eT1s75Sd7U7e-25" value="exibir imagens selecionadas { &lt;br&gt;d: foto 1, foto 2, ....}&lt;br&gt;Exibir detalhes da peça {&lt;br&gt;&amp;nbsp; d: o que vai doar {item escolhido}&lt;br&gt;&amp;nbsp; &amp;nbsp;d: categoria {item escolhido}&lt;br&gt;&amp;nbsp; d: faixa etária {item escolhido}&lt;div&gt;&amp;nbsp; d: genero&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;{item escolhido}&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; d: tamanho da peça {item escolhido}&lt;br&gt;&lt;div&gt;}&lt;br&gt;Exibir detalhes&amp;nbsp;da doação {&lt;br&gt;&lt;div&gt;d+u: como quer doar {retirada por instituições, entrega no local, ambos}&lt;br&gt;d+u: dia e horário para doação {dia da semana, horario}&lt;br&gt;&lt;div&gt;}&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;container=0;" parent="iCmCGEU5eT1s75Sd7U7e-24" vertex="1">
+          <mxGeometry x="10" y="30" width="180" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="ITZU4n59MmsmW6ebiXtw-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" parent="iCmCGEU5eT1s75Sd7U7e-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="840" y="240" as="targetPoint" />
+            <mxPoint x="832.9300000000001" y="316" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="900" y="316" />
+              <mxPoint x="900" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ITZU4n59MmsmW6ebiXtw-6" value="&lt;span style=&quot;font-size: 12px; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;u: selecionar/deselecionar imagens&lt;/span&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" parent="ITZU4n59MmsmW6ebiXtw-4" vertex="1" connectable="0">
+          <mxGeometry x="0.0206" relative="1" as="geometry">
+            <mxPoint x="-30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iCmCGEU5eT1s75Sd7U7e-26" value="carregar imagens em lote" style="swimlane;whiteSpace=wrap;html=1;rounded=1;container=0;startSize=20;" parent="iCmCGEU5eT1s75Sd7U7e-1" vertex="1">
+          <mxGeometry x="636.5" y="192" width="196.43" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="iCmCGEU5eT1s75Sd7U7e-27" value="ver galeria de imagens {&lt;br&gt;d: lista (imagens da galeria do usuário)&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;}&lt;/span&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;container=0;" parent="iCmCGEU5eT1s75Sd7U7e-26" vertex="1">
+          <mxGeometry x="7.140000000000001" y="38" width="182.14" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="iCmCGEU5eT1s75Sd7U7e-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="iCmCGEU5eT1s75Sd7U7e-1" source="iCmCGEU5eT1s75Sd7U7e-30" target="iCmCGEU5eT1s75Sd7U7e-31" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iCmCGEU5eT1s75Sd7U7e-29" value="&lt;span style=&quot;text-align: left;&quot;&gt;u: sair&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="iCmCGEU5eT1s75Sd7U7e-28" vertex="1" connectable="0">
+          <mxGeometry x="-0.211" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iCmCGEU5eT1s75Sd7U7e-30" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E0E0E0;container=0;" parent="iCmCGEU5eT1s75Sd7U7e-1" vertex="1">
+          <mxGeometry x="40" y="240" width="90" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="iCmCGEU5eT1s75Sd7U7e-31" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;container=0;" parent="iCmCGEU5eT1s75Sd7U7e-1" vertex="1">
+          <mxGeometry x="65" y="332" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iCmCGEU5eT1s75Sd7U7e-32" value="&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;color: rgb(17, 17, 17);&quot;&gt;&lt;b&gt;Objetivo&lt;/b&gt;: Permitir a&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;line-height: var(--cib-type-subtitle2-stronger-line-height); font-weight: var(--cib-type-subtitle2-stronger-font-weight); font-variation-settings: var(--cib-type-subtitle2-stronger-font-variation-settings); color: rgb(17, 17, 17);&quot;&gt;Marta&lt;/span&gt;&lt;span style=&quot;color: rgb(17, 17, 17);&quot;&gt;&amp;nbsp;a opção de&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;line-height: var(--cib-type-subtitle2-stronger-line-height); font-weight: var(--cib-type-subtitle2-stronger-font-weight); font-variation-settings: var(--cib-type-subtitle2-stronger-font-variation-settings); color: rgb(17, 17, 17);&quot;&gt;fazer doações em lote&lt;/span&gt;&lt;span style=&quot;color: rgb(17, 17, 17);&quot;&gt;. Isso significa que ela poderá disponibilizar doações que possuam&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;line-height: var(--cib-type-subtitle2-stronger-line-height); font-weight: var(--cib-type-subtitle2-stronger-font-weight); font-variation-settings: var(--cib-type-subtitle2-stronger-font-variation-settings); color: rgb(17, 17, 17);&quot;&gt;características semelhantes&lt;/span&gt;&lt;span style=&quot;color: rgb(17, 17, 17);&quot;&gt;&amp;nbsp;de uma forma mais&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;line-height: var(--cib-type-subtitle2-stronger-line-height); font-weight: var(--cib-type-subtitle2-stronger-font-weight); font-variation-settings: var(--cib-type-subtitle2-stronger-font-variation-settings); color: rgb(17, 17, 17);&quot;&gt;prática e eficiente&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="iCmCGEU5eT1s75Sd7U7e-1" vertex="1">
+          <mxGeometry x="70" y="45" width="290" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="iCmCGEU5eT1s75Sd7U7e-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="iCmCGEU5eT1s75Sd7U7e-1" source="iCmCGEU5eT1s75Sd7U7e-37" target="iCmCGEU5eT1s75Sd7U7e-24" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="679.86" y="630.0000000000001" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="750" y="970" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iCmCGEU5eT1s75Sd7U7e-34" value="d: imagens carregadas &lt;br&gt;com sucesso" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" parent="iCmCGEU5eT1s75Sd7U7e-33" vertex="1" connectable="0">
+          <mxGeometry x="-0.3795" y="-1" relative="1" as="geometry">
+            <mxPoint x="-48" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iCmCGEU5eT1s75Sd7U7e-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="iCmCGEU5eT1s75Sd7U7e-1" source="iCmCGEU5eT1s75Sd7U7e-37" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="299.86" y="640.0000000000001" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="229.86" y="970" />
+              <mxPoint x="229.86" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iCmCGEU5eT1s75Sd7U7e-36" value="if/d: Imagens não carregadas &lt;br&gt;verifique sua conexão &lt;br&gt;e tente novamente" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" parent="iCmCGEU5eT1s75Sd7U7e-35" vertex="1" connectable="0">
+          <mxGeometry x="0.1646" y="-3" relative="1" as="geometry">
+            <mxPoint x="-33" y="140" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iCmCGEU5eT1s75Sd7U7e-37" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;container=0;" parent="iCmCGEU5eT1s75Sd7U7e-1" vertex="1">
+          <mxGeometry x="379.86" y="950" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iCmCGEU5eT1s75Sd7U7e-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="iCmCGEU5eT1s75Sd7U7e-1" source="iCmCGEU5eT1s75Sd7U7e-16" target="iCmCGEU5eT1s75Sd7U7e-37" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iCmCGEU5eT1s75Sd7U7e-39" value="precond: características preenchidas&amp;nbsp;&lt;br&gt;u: revisar" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" parent="iCmCGEU5eT1s75Sd7U7e-38" vertex="1" connectable="0">
+          <mxGeometry x="-0.033" relative="1" as="geometry">
+            <mxPoint x="-90" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iCmCGEU5eT1s75Sd7U7e-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;dashed=1;" parent="iCmCGEU5eT1s75Sd7U7e-1" source="iCmCGEU5eT1s75Sd7U7e-44" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="900" y="630" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1010" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iCmCGEU5eT1s75Sd7U7e-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="iCmCGEU5eT1s75Sd7U7e-1" source="iCmCGEU5eT1s75Sd7U7e-44" target="iCmCGEU5eT1s75Sd7U7e-45" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iCmCGEU5eT1s75Sd7U7e-43" value="d: Doação enviada para &lt;br&gt;processamento interno&lt;br&gt;&lt;b&gt;why:&lt;/b&gt;&amp;nbsp;Validar se não há &lt;br&gt;imagens que violem&amp;nbsp;&lt;br&gt;&lt;div&gt;as diretrizes da empresa&lt;/div&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" parent="iCmCGEU5eT1s75Sd7U7e-42" connectable="0" vertex="1">
+          <mxGeometry x="-0.1697" y="-2" relative="1" as="geometry">
+            <mxPoint x="-22" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iCmCGEU5eT1s75Sd7U7e-44" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;container=0;" parent="iCmCGEU5eT1s75Sd7U7e-1" vertex="1">
+          <mxGeometry x="989.9999999999995" y="710" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kDFJ6UlDcrJAM66Nnpf--2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="iCmCGEU5eT1s75Sd7U7e-1" source="iCmCGEU5eT1s75Sd7U7e-45" target="kDFJ6UlDcrJAM66Nnpf--0" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kDFJ6UlDcrJAM66Nnpf--6" value="Precond: ter doações publicadas&lt;br&gt;u:_" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="kDFJ6UlDcrJAM66Nnpf--2" vertex="1" connectable="0">
+          <mxGeometry x="0.7087" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iCmCGEU5eT1s75Sd7U7e-45" value="Minhas doações" style="swimlane;whiteSpace=wrap;html=1;rounded=1;container=0;" parent="iCmCGEU5eT1s75Sd7U7e-1" vertex="1">
+          <mxGeometry x="1310" y="625" width="180" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="iCmCGEU5eT1s75Sd7U7e-46" value="&lt;div style=&quot;&quot;&gt;Minhas doações {&lt;br&gt;&amp;nbsp; d: ativas {&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Lista doações: (Tipo da&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; doação, data da publicação)&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;d: pendentes de aprovação {&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Lista doações pendentes: (Tipo da doação, data da solicitação e status )&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;}&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;container=0;" parent="iCmCGEU5eT1s75Sd7U7e-45" vertex="1">
+          <mxGeometry x="10" y="30" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="iCmCGEU5eT1s75Sd7U7e-47" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;if/d: Erro em publicar suas doações, verifique sua conexão e tente novamente&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="iCmCGEU5eT1s75Sd7U7e-1" vertex="1">
+          <mxGeometry x="970" y="640" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BIuBNqjKTY_bCoIhKtUK-0" value="-" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="iCmCGEU5eT1s75Sd7U7e-1" source="jQYMaavByfsi5GDmGxD5-0" target="BIuBNqjKTY_bCoIhKtUK-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="495" y="150" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BIuBNqjKTY_bCoIhKtUK-1" value="u: _&lt;br&gt;precond: estar logado&lt;br&gt;&lt;b&gt;why:&amp;nbsp;&lt;/b&gt;É preciso ter um&lt;br&gt;pré cadastro&lt;br&gt;para fazer doações" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" parent="BIuBNqjKTY_bCoIhKtUK-0" connectable="0" vertex="1">
+          <mxGeometry x="-0.025" relative="1" as="geometry">
+            <mxPoint x="-40" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BIuBNqjKTY_bCoIhKtUK-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="iCmCGEU5eT1s75Sd7U7e-1" source="BIuBNqjKTY_bCoIhKtUK-5" target="BIuBNqjKTY_bCoIhKtUK-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BIuBNqjKTY_bCoIhKtUK-4" value="precond: Não ter foto salva na&lt;br&gt;&amp;nbsp;galeria de imagens&lt;br&gt;u:_" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" parent="BIuBNqjKTY_bCoIhKtUK-3" connectable="0" vertex="1">
+          <mxGeometry x="0.64" relative="1" as="geometry">
+            <mxPoint x="-55" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BIuBNqjKTY_bCoIhKtUK-5" value="fazer doação" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" parent="iCmCGEU5eT1s75Sd7U7e-1" vertex="1">
+          <mxGeometry x="435" y="230" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BIuBNqjKTY_bCoIhKtUK-6" value="tirar foto" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" parent="iCmCGEU5eT1s75Sd7U7e-1" vertex="1">
+          <mxGeometry x="370" y="409" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BIuBNqjKTY_bCoIhKtUK-7" value="Minhas doações" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" parent="iCmCGEU5eT1s75Sd7U7e-1" vertex="1">
+          <mxGeometry x="485" y="410" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BIuBNqjKTY_bCoIhKtUK-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.583;entryY=-0.075;entryDx=0;entryDy=0;entryPerimeter=0;" parent="iCmCGEU5eT1s75Sd7U7e-1" source="BIuBNqjKTY_bCoIhKtUK-5" target="BIuBNqjKTY_bCoIhKtUK-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BIuBNqjKTY_bCoIhKtUK-9" value="precond: ter minhas doações &lt;br&gt;pendentes de aprovação / ativas&lt;br&gt;u:_" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" parent="BIuBNqjKTY_bCoIhKtUK-8" connectable="0" vertex="1">
+          <mxGeometry x="0.6837" y="-4" relative="1" as="geometry">
+            <mxPoint x="-45" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jQYMaavByfsi5GDmGxD5-0" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#141414;" parent="iCmCGEU5eT1s75Sd7U7e-1" vertex="1">
+          <mxGeometry x="478" y="80" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ITZU4n59MmsmW6ebiXtw-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" parent="iCmCGEU5eT1s75Sd7U7e-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="499" y="610" as="targetPoint" />
+            <mxPoint x="499.39000000000004" y="686" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="580" y="686" />
+              <mxPoint x="580" y="610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ITZU4n59MmsmW6ebiXtw-9" value="&lt;span style=&quot;font-size: 12px; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;u: deletar imagens &lt;br&gt;selecionadas&lt;/span&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" parent="ITZU4n59MmsmW6ebiXtw-8" vertex="1" connectable="0">
+          <mxGeometry x="0.0206" relative="1" as="geometry">
+            <mxPoint x="-36" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ITZU4n59MmsmW6ebiXtw-10" value="Ver doações pendentes" style="swimlane;whiteSpace=wrap;html=1;rounded=1;container=0;" parent="iCmCGEU5eT1s75Sd7U7e-1" vertex="1">
+          <mxGeometry x="1420" y="990" width="180" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="ITZU4n59MmsmW6ebiXtw-11" value="&lt;div style=&quot;&quot;&gt;exibir imagens&amp;nbsp; {&lt;br&gt;d: foto 1, foto 2, ....}&lt;br&gt;Exibir detalhes da solicitação {&lt;br&gt;&amp;nbsp; &amp;nbsp;d: data da solicitação {data}&amp;nbsp;&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp;d: status {da doação}&lt;br&gt;&amp;nbsp; &amp;nbsp;d: o que vai doar {item escolhido}&lt;br&gt;&amp;nbsp; &amp;nbsp;d: categoria {item escolhido}&lt;br&gt;&amp;nbsp; d: faixa etária {item escolhido}&lt;div&gt;&amp;nbsp; d: genero&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;{item escolhido}&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; d: tamanho da peça {item escolhido}&lt;br&gt;&amp;nbsp; d: como quer doar {item escolhido}&lt;br&gt;&amp;nbsp; d: dia para doação {item escolhido}&lt;br&gt;&amp;nbsp;d: horário para doação {item escolhido}&amp;nbsp;&lt;br&gt;&lt;div&gt;}&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;container=0;" parent="ITZU4n59MmsmW6ebiXtw-10" vertex="1">
+          <mxGeometry x="10" y="30" width="160" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="kDFJ6UlDcrJAM66Nnpf--0" value="Ver doações publicadas" style="swimlane;whiteSpace=wrap;html=1;rounded=1;container=0;" parent="iCmCGEU5eT1s75Sd7U7e-1" vertex="1">
+          <mxGeometry x="1210" y="990" width="180" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="kDFJ6UlDcrJAM66Nnpf--1" value="&lt;div style=&quot;&quot;&gt;exibir imagens&amp;nbsp; {&lt;br&gt;d: foto 1, foto 2, ....}&lt;br&gt;Exibir detalhes da publicação {&lt;br&gt;&amp;nbsp; &amp;nbsp;d: data da publicação {data}&amp;nbsp;&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp;d: status {da doação}&lt;br&gt;&amp;nbsp; &amp;nbsp;d: o que vai doar {item escolhido}&lt;br&gt;&amp;nbsp; &amp;nbsp;d: categoria {item escolhido}&lt;br&gt;&amp;nbsp; d: faixa etária {item escolhido}&lt;div&gt;&amp;nbsp; d: genero&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;{item escolhido}&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; d: tamanho da peça {item escolhido}&lt;br&gt;&amp;nbsp; d: como quer doar {item escolhido}&lt;br&gt;&amp;nbsp; d: dia para doação {item escolhido}&lt;br&gt;&amp;nbsp;d: horário para doação {item escolhido}&amp;nbsp;&lt;br&gt;&lt;div&gt;}&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;container=0;" parent="kDFJ6UlDcrJAM66Nnpf--0" vertex="1">
+          <mxGeometry x="10" y="30" width="160" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="kDFJ6UlDcrJAM66Nnpf--4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.59;entryY=0.005;entryDx=0;entryDy=0;entryPerimeter=0;" parent="iCmCGEU5eT1s75Sd7U7e-1" source="iCmCGEU5eT1s75Sd7U7e-45" target="ITZU4n59MmsmW6ebiXtw-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kDFJ6UlDcrJAM66Nnpf--5" value="Precond: ter doações pendentens&lt;br&gt;u:_" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="kDFJ6UlDcrJAM66Nnpf--4" vertex="1" connectable="0">
+          <mxGeometry x="0.7156" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
